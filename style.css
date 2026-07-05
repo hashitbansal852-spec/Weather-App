@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 380px;
+  min-height: 520px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.searchbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.searchbox input {
+  flex: 1;
+  height: 42px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+}
+.search-box input:focus {
+  border-color: #3498db;
+}
+.searchbox button {
+  height: 42px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 12px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.searchbox button:hover {
+  background: #2176bd;
+}
+.searchbox p {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.temp {
+  text-align: center;
+}
+#image {
+  width: 90px;
+  height: 90px;
+}
+.temp h2 {
+  margin-top: 10px;
+  font-size: 42px;
+}
+.wh {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+.weather,
+.humidity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.weather img,
+.humidity img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.weather p,
+.humidity p {
+  margin: 3px 0;
+  font-size: 16px;
+}

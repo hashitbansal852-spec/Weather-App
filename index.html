@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashit weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter Your Location">
+                <button>Search</button>
+                <p id="location">location</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="temp">
+                <img id="image" src="cloudy.png">
+                <h2></h2>
+            </div>
+            <div class="wh">
+                <div class="weather">
+                    <img src="wind.png">
+                    <p>Weather</p>
+                    <p id="cloud"></p>
+                </div>
+                <div class="humidity">
+                    <img src="humidity.png">
+                    <p>Humidity</p>
+                    <p id="humi"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
