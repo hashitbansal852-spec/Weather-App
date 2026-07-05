@@ -53,7 +53,7 @@ Weather-Dashboard/
 
 ## 🔗 Live Demo
 
-Coming Soon...
+https://hashitbansal852-spec.github.io/Weather-App/
 
 ---
 
